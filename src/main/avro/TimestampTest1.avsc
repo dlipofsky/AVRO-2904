@@ -1,0 +1,8 @@
+{
+  "type" : "record",
+  "name" : "TimestampTest1",
+  "fields" : [ {
+    "name" : "time",
+    "type" : [ "null", { "type" : "long", "logicalType" : "timestamp-millis" } ]
+  } ]
+}
